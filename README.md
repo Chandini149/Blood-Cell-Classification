@@ -8,6 +8,7 @@ This project presents an advanced framework for blood cell image classification,
 - **Deep Learning Models**: 
   - Convolutional Neural Networks (CNNs), U-Net, ResNet-50, VGG-16, DenseNet-201, MobileNet-V2.
   - Supervised Contrastive Learning.
+  - InceptionV3 and Xception.
   - Hybrid Model combining InceptionV3 and Xception.
 - **Performance Highlights**:
   - Hybrid model achieved the highest accuracy of 98.51%.
