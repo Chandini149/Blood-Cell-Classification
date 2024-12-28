@@ -55,5 +55,3 @@ This project was developed by:
 - Stacy Miner
 - Betis Baheri
 - Safa Shubbar
-
-Special thanks to the Hospital Clinic of Barcelona for providing the dataset and Kent State University for research support.
