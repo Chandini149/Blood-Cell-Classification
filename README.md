@@ -27,11 +27,13 @@ This project presents an advanced framework for blood cell image classification,
    - Comparative analysis conducted across architectures with and without data shuffling.
 
 ## Results
+The following table highlights the top three models based on their highest test accuracy:
+
 | Model                         | Train Accuracy | Test Accuracy | Precision | Recall | F1 Score |
 |-------------------------------|----------------|---------------|-----------|--------|----------|
-| CNN                           | 95.76%         | 91.08%        | 91.08%    | 91.08% | 91.08%   |
-| U-Net                         | 96.88%         | 94.66%        | 94.66%    | 94.66% | 94.66%   |
 | Hybrid (InceptionV3 + Xception) | 99.75%        | 98.51%        | 98.53%    | 98.51% | 98.52%   |
+| Xception                      | 99.34%         | 97.89%        | 97.92%    | 97.89% | 97.89%   |
+| Supervised Contrastive Learning | 98.39%       | 96.35%        | 96.35%    | 96.35% | 96.35%   |
 
 ## Conclusion
 This project demonstrates the potential of hybrid deep learning models in enhancing diagnostic accuracy. It underscores the importance of robust preprocessing and model evaluation strategies for real-world medical applications.
