@@ -10,7 +10,8 @@ This project introduces an advanced framework for blood cell image classificatio
 
 - **Deep Learning Models:**  
   - Convolutional Neural Networks (CNNs), U-Net, ResNet-50, VGG-16, DenseNet-201, MobileNet-V2.  
-  - Supervised Contrastive Learning for enhanced feature extraction.  
+  - Supervised Contrastive Learning for enhanced feature extraction.
+  - InceptionV3 and Xception
   - Hybrid Model combining InceptionV3 and Xception architectures.
 
 - **Performance Highlights:**  
@@ -66,8 +67,6 @@ This project was collaboratively developed by:
 - Stacy Miner  
 - Betis Baheri  
 - Safa Shubbar  
-
-We gratefully acknowledge the support and resources provided by the Hospital Clinic of Barcelona and contributing institutions.
 
 
 Deep learning not only enhances diagnostic precision but also accelerates the process, enabling timely interventions that can save lives and redefine medical imaging practices.
