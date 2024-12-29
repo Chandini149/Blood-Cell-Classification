@@ -1,57 +1,73 @@
-# Decoding Cellular Complexity: A Deep Learning Expedition in Blood Cell Image Classification
+# 🩸 Decoding Cellular Complexity: A Deep Learning Expedition in Blood Cell Image Classification
 
-## Project Overview
-This project presents an advanced framework for blood cell image classification, leveraging cutting-edge deep learning techniques. By using a meticulously curated dataset, we achieved exceptional accuracy, advancing the field of medical diagnostics. The hybrid InceptionV3-Xception model excelled, attaining a test accuracy of 98.51%.
+## 🔍 **Project Overview**
+This project introduces an advanced framework for blood cell image classification, leveraging cutting-edge deep learning techniques to enhance diagnostic accuracy. Using a meticulously curated dataset, the hybrid InceptionV3-Xception model achieved a remarkable test accuracy of 98.51%, setting a benchmark in medical diagnostics.
 
-## Key Features
-- **Dataset**: High-resolution images sourced from the Hospital Clinic of Barcelona, annotated by clinical pathologists.
-- **Deep Learning Models**: 
-  - Convolutional Neural Networks (CNNs), U-Net, ResNet-50, VGG-16, DenseNet-201, MobileNet-V2.
-  - Supervised Contrastive Learning.
-  - InceptionV3 and Xception.
-  - Hybrid Model combining InceptionV3 and Xception.
-- **Performance Highlights**:
-  - Hybrid model achieved the highest accuracy of 98.51%.
-  - Models assessed for robustness using data shuffling and cross-validation.
-- **Applications**:
-  - Automated blood cell classification for improved diagnostics.
-  - Early detection of diseases like leukemia and autoimmune disorders.
+## 🌟 **Key Features**
+- **Dataset:**  
+  - 17,092 high-resolution blood cell images sourced from the Hospital Clinic of Barcelona.  
+  - Expert annotations by clinical pathologists ensure data quality.
 
-## Methodology
-1. **Data Preprocessing**: Standardized image dimensions, class-stratified splits, and SMOTE for class imbalance handling.
-2. **Model Training**:
-   - Utilized transfer learning and customized layers for feature extraction and classification.
-   - Optimized models using Adam, RMSprop, and SGD optimizers.
-3. **Evaluation**:
-   - Metrics include accuracy, precision, recall, F1-score, and confusion matrices.
-   - Comparative analysis conducted across architectures with and without data shuffling.
+- **Deep Learning Models:**  
+  - Convolutional Neural Networks (CNNs), U-Net, ResNet-50, VGG-16, DenseNet-201, MobileNet-V2.  
+  - Supervised Contrastive Learning for enhanced feature extraction.  
+  - Hybrid Model combining InceptionV3 and Xception architectures.
 
-## Results
-The following table highlights the top three models based on their highest test accuracy:
+- **Performance Highlights:**  
+  - **Hybrid Model:** Test accuracy of 98.51%, showcasing exceptional classification performance.  
+  - **Xception Model:** Test accuracy of 97.89%.  
+  - **Supervised Contrastive Learning:** Test accuracy of 96.35%.  
+  - Robust evaluations performed with data shuffling and cross-validation.
 
-| Model                         | Train Accuracy | Test Accuracy | 
-|-------------------------------|----------------|---------------|
-| Hybrid (InceptionV3 + Xception) | 99.75%        | 98.51%        |
-| Xception                      | 99.34%         | 97.89%        | 
-| Supervised Contrastive Learning | 98.39%       | 96.35%        | 
+- **Applications:**  
+  - Automated blood cell classification for improved diagnostics.  
+  - Early detection of diseases like leukemia, autoimmune disorders, and other hematologic conditions.  
 
-## Conclusion
-This project demonstrates the potential of hybrid deep learning models in enhancing diagnostic accuracy. It underscores the importance of robust preprocessing and model evaluation strategies for real-world medical applications.
+## 🛠️ **Methodology**
+1. **Data Preprocessing:**  
+   - Standardized image dimensions to 224x224 pixels.  
+   - Class-stratified data splits (70% training, 30% testing).  
+   - Applied SMOTE to address class imbalance.
 
-## Future Work
-- Exploration of additional deep learning architectures.
-- Application to more diverse datasets.
-- Integration with real-time diagnostic tools.
+2. **Model Training:**  
+   - Transfer learning with pre-trained architectures and customized classification layers.  
+   - Optimization using Adam, RMSprop, and SGD optimizers.
 
-## Authors and Acknowledgments
-This project was developed by:
-- Shivani Battu
-- Likhitha Marrapu
-- Chandini Karrothu
-- Anuranjani Thota
-- Hanan Muhajab
-- Areej Muhajab
-- Kambiz Ghazinour
-- Stacy Miner
-- Betis Baheri
-- Safa Shubbar
+3. **Evaluation:**  
+   - Metrics include accuracy, precision, recall, F1-score, and confusion matrices.  
+   - Comparative analysis across architectures, with and without data shuffling.
+
+## 📊 **Results**
+Top-performing models based on test accuracy:
+
+| **Model**                      | **Train Accuracy** | **Test Accuracy** |
+|---------------------------------|--------------------|-------------------|
+| Hybrid (InceptionV3 + Xception)| 99.75%            | 98.51%           |
+| Xception                        | 99.34%            | 97.89%           |
+| Supervised Contrastive Learning | 98.39%            | 96.35%           |
+
+## 🧪 **Conclusion**
+This project demonstrates the potential of hybrid deep learning models to revolutionize blood cell image classification, achieving high diagnostic accuracy and reliability. Robust preprocessing and model evaluation strategies were pivotal in attaining these results, offering valuable insights for real-world medical applications.
+
+## 🚀 **Future Work**
+- Investigate additional deep learning architectures and hybrid models.  
+- Expand the study to more diverse datasets.  
+- Integrate the framework with real-time diagnostic tools for clinical deployment.
+
+## 🤝 **Authors and Acknowledgments**
+This project was collaboratively developed by:  
+- Shivani Battu  
+- Likhitha Marrapu  
+- Chandini Karrothu  
+- Anuranjani Thota  
+- Hanan Muhajab  
+- Areej Muhajab  
+- Kambiz Ghazinour  
+- Stacy Miner  
+- Betis Baheri  
+- Safa Shubbar  
+
+We gratefully acknowledge the support and resources provided by the Hospital Clinic of Barcelona and contributing institutions.
+
+
+Deep learning not only enhances diagnostic precision but also accelerates the process, enabling timely interventions that can save lives and redefine medical imaging practices.
